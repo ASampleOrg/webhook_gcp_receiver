@@ -11,6 +11,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="deployment">Deployment</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
@@ -34,6 +35,14 @@ This repo contains a sample Google Cloud Function written for Python 3.8 that ca
 * [Google Cloud Python Runtime](https://cloud.google.com/functions/docs/concepts/python-runtime)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- DEPLOYMENT -->
+## Deployment
+The easiest way to deploy is to use the gcloud CLI. Install and configure the gcloud CLI for your OS: [GCloud install](https://cloud.google.com/sdk/docs/install). Then run the following from within the project root directory:
+```
+gcloud functions deploy github_weboook \
+--runtime python38 --trigger-http --allow-unauthenticated
+```
 
 <!-- LICENSE -->
 ## License
