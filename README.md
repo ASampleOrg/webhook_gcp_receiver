@@ -20,7 +20,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This repo contains a sample Google Cloud Function written for Python 3.8 that catches Github Organization webhook events. This sample looks for 'Repository Created" events specifically and automates creating a first issue and enabling branch protection for the default branch. The main.py file exposes a single python function which is confiured to receive JSON formatted webhook data as a built-in Flask request object. 
+This repo contains a sample Google Cloud Function written for Python 3.8 that catches Github Organization webhook events. This sample looks for 'Repository Created" events specifically and automates creating a first issue and enabling branch protection for the default branch. The main.py file exposes a single python function which is configured to receive JSON formatted webhook data as a built-in Flask request object. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
